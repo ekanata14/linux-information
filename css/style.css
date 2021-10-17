@@ -63,7 +63,7 @@
 /* Style for linux-content */
 
 .linux-content img{
-    margin-top: 5px;
+    margin-top: -5px;
 }
 
 .ubuntu{
