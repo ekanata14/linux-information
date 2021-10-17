@@ -1,0 +1,9 @@
+@media(max-width:546px){
+    .header-list ul{
+        display: none;
+    }
+
+    .header-list img{
+        display: block;
+    }
+}
