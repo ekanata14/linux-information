@@ -22,7 +22,7 @@
 }
 
 .linux-content{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
     cursor: pointer;
     border-radius: 20px;
     float: left;
@@ -41,7 +41,7 @@
 }
 
 .content-title{
-    font-size: 9px;
+    font-size: 15px;
     margin-top: 10px;
 }
 
