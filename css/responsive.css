@@ -1,0 +1,13 @@
+@media(max-width: 768px){
+    .linux-content{
+        width: 50%;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .arrow-outside{
+        display: block;
+    }
+}
