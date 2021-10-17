@@ -167,43 +167,27 @@ body{
     position: absolute;
     height: 100%;
     width: calc(100% - 300px);
-    left: 80px;
+    left: 90px;
     transition: all 0.5s ease;
 }
 .home_content .text{
     font-size: 25px;
     font-weight: 500;
     color: #242424;
-    padding: 12px 24px;
+    padding: 25px 24px;
 
 }
-
-.sidebar.active ~ .home_content{
+.sidebar.active ~.home_content{
     left: 300px;
 }
-/* Responsive Breakpoint */
-@media only screen and (max-width:550px){
-    .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1,2fr 1fr;
-        grid-template-areas: 
-        "nav"
-        "sidebar"
-        "main"
-        "footer"
-        ;
-    }
+
+.pengertian p{
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 300px);
+    top: 100px;
+    left: 90px;
+    transition: all 0.5s ease;
 }
-.container{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
-    grid-template-areas: 
-    "nav nav nav nav"
-    "sidebar main main main"
-    "sidebar content1 content2 content3"
-    "sidebar footer footer footer"
-    ;
-    grid-gap:  0.3rem;
-}
+.sidebar.active ~ .pengertian p{
+    left: 300px
