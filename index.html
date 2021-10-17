@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <div class="container" id="firstContainer">
+        <div class="content-container">
+            <div class="arrow">
+                <img src="images/arrowLeft.png" alt="arrowLeft">
+            </div>
+            <div class="linux-content ubuntu">
+                <h1 class="content-title">Ubuntu</h1>
+                <img src="images//130px/ubuntu.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content kali-linux">
+                <h1 class="content-title">Kali Linux</h1>
+                <img src="images/130px/kali-linux.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content linux-mint">
+                <h1 class="content-title">Linux Mint</h1>
+                <img src="images/130px/linux-mint.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content debian">
+                <h1 class="content-title">Debian</h1>
+                <img src="images/130px/debian.svg" alt="ubuntu-image">
+            </div>
+            <div class="arrow">
+                <img src="images/arrowRight.png" alt="arrowRight" onclick="replace('firstContainer', 'secondContainer')">
+            </div>
+        </div>
+    </div>
+    <div class="arrow-outside">
+        <img src="images/arrowLeft.png" alt="arrowLeft" onclick="replace2('secondContainer', 'firstContainer')">
+        <img src="images/arrowRight.png" alt="arrowRight" onclick="replace('firstContainer', 'secondContainer')">
+    </div>
 
+    <div class="container container2" id="secondContainer">
+        <div class="content-container">
+            <div class="arrow">
+                <img src="images/arrowLeft.png" alt="arrowLeft" onclick="replace2('secondContainer', 'firstContainer')">
+            </div>
+            <div class="linux-content fedora-linux">
+                <h1 class="content-title">Fedora Linux</h1>
+                <img src="images/130px/fedora-linux.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content suse-linux">
+                <h1 class="content-title">Suse Linux</h1>
+                <img src="images/130px/suse-linux.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content kubuntu">
+                <h1 class="content-title">Kubuntu</h1>
+                <img src="images/130px/kubuntu.svg" alt="ubuntu-image">
+            </div>
+            <div class="linux-content arch-linux">
+                <h1 class="content-title">Arch Linux</h1>
+                <img src="images/130px/arch-linux.svg" alt="ubuntu-image">
+            </div>
+            <div class="arrow">
+                <img src="images/arrowRight.png" alt="arrowRight">
+            </div>
+        </div>
+    </div> 
+    <script type = "text/javascript">
+        function replace(hide, show) {
+        document.getElementById(hide).style.display="none";
+        document.getElementById(show).style.display="block";
+        }
+
+        function replace2(hide, show){
+        document.getElementById(hide).style.display="none";
+        document.getElementById(show).style.display="block";
+        }
+        
+        </script>
+</body>
+</html>
