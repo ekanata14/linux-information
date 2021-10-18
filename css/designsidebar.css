@@ -60,6 +60,11 @@ body{
     line-height: 50px;
     transform: translate(-50%);
 } 
+
+#btn:hover{
+    cursor: pointer;   
+}
+
 .sidebar.active #btn{left: 85%;}
 .sidebar .src{
     position: relative;
