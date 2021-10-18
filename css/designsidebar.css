@@ -22,6 +22,7 @@ body{
     padding: 6px 16px;
     height: 100%;
     box-shadow: 5px 0 30px rgba(0, 0, 0,.1);
+    z-index: 99 ;
 }
 .sidebar.active{
     width: 240px;
@@ -139,7 +140,7 @@ body{
 }
 .sidebar ul li .tooltip{
     position: absolute;
-    left: 350px;
+    left: 150px;
     top: 0;
     transform: translate(-45% , -50%);
     border-radius: 10px;
@@ -148,7 +149,7 @@ body{
     background: #ffffff;
     line-height: 35px;
     text-align: center;
-    font-size: 13px;
+    font-size: 18px;
     display: block;
     color: #242424;
     box-shadow: 0 5px 10px rgba(0, 0, 0,.2);
@@ -188,6 +189,7 @@ body{
     top: 100px;
     left: 130px;
     transition: all 0.5s ease;
+    font-size: 20px;
 }
 
 .container-linux{
