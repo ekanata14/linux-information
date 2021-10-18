@@ -5,27 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/page-css.css">
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/page-css-responsive.css">
+    <link rel="stylesheet" href="css/designsidebar.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <h1>FirstGroup</h1>
+<div>
+    <div class="container">
+    <div class="sidebar">
+        <div class="logo_content">
+            <div class="logo">
+                <i class='bx bx-sidebar'></i>
+                <div class="logo_name">FirstGroup</div>
+            </div> <i class='bx bx-menu' id='btn'></i></div>
+
+            <div class="src">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Search..">
             </div>
-            <div class="header-list">
-                <ul>
-                    <li>About Us</li>
-                    <li>Linux</li>
-                    <li>Dashboard</li>
-                </ul>
-                <img src="../images/sidebar.svg" alt="sidebar">
-            </div>
+
+            
+            <ul class="nav">             
+                <li>
+                    <a href="#">
+                        <i class='bx bx-info-circle' ></i>
+                        <span class="link_name">About Us</span>
+                    </a>
+                    <span class="tooltip">About Us</span>
+                    
+                </li>                            
+            </ul>
         </div>
-    </div>
-    <div class="content-container">
+    
+        <div class="content-container">
         <div class="content-wrapper">
             <h1>Ubuntu</h1>
             <img src="../images/130px/ubuntu.svg" alt="ubuntu">
