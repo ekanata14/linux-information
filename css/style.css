@@ -7,17 +7,16 @@
 }
 
 .container-linux{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 400px;
+    margin-top: 300px;
     position: absolute;
-    left: 0;
+    left: 130px;
     right: 0;
     max-width: 1170px;
     width: 100%;
     background-color: #343432;
     height: 250px;
     border-radius: 20px;
+    transition: left 0.5 ease;
 }
 
 .content-container{
