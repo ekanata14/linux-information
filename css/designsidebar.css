@@ -17,7 +17,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    width: 50px;
+    width: 100px;
     background: #ffffff;
     padding: 6px 16px;
     height: 100%;
@@ -167,7 +167,7 @@ body{
     position: absolute;
     height: 100%;
     width: calc(100% - 300px);
-    left: 90px;
+    left: 130px;
     transition: all 0.5s ease;
 }
 .home_content .text{
@@ -186,9 +186,16 @@ body{
     height: 100%;
     width: calc(100% - 300px);
     top: 100px;
-    left: 90px;
+    left: 130px;
+    transition: all 0.5s ease;
+}
+
+.container-linux{
     transition: all 0.5s ease;
 }
 .sidebar.active ~ .pengertian p{
     left: 300px
+}
+.sidebar.active ~ .container-linux{
+    left: 300px;
 }
