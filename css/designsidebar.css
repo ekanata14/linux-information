@@ -99,6 +99,7 @@ body{
 }
 .sidebar .src .bx-search:hover{
     color: #0b2977;
+    cursor: pointer;
 }
 .sidebar .src .bx-search:hover ~input{
     background: #ffffff;
