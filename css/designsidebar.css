@@ -60,17 +60,16 @@ body{
     line-height: 50px;
     transform: translate(-50%);
 } 
-
-#btn:hover{
-    cursor: pointer;   
-}
-
 .sidebar.active #btn{left: 85%;}
 .sidebar .src{
     position: relative;
     height: 50px;
     width: 100%;
     margin-top: 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
 }
 
 .sidebar .src input{
@@ -136,6 +135,11 @@ body{
     color: #1b56e9;
     background: #e7e9f5;
 }
+
+.sidebar li:hover{
+    cursor: pointer;
+}
+
 .sidebar .link_name{
     opacity: 0;
     pointer-events: none;
@@ -191,18 +195,40 @@ body{
 .pengertian p{
     position: absolute;
     height: 100%;
-    width: calc(100% - 300px);
+    width: calc(100% - 800px);
     top: 100px;
     left: 130px;
     transition: all 0.5s ease;
+    font-size: 15px;
 }
 
 .container-linux{
     transition: all 0.5s ease;
 }
 .sidebar.active ~ .pengertian p{
-    left: 300px
+    left: 300px;
+    width: calc(100% - 900px);
 }
 .sidebar.active ~ .container-linux{
     left: 300px;
 }
+
+.sidebar.active ~ .content-container{
+    left: 300px;
+}
+
+.sidebar.active ~ .content-linux{
+    left: 300px;
+    width: calc(100% - 800px);
+}
+
+/* 
+Change:
+.pengertian
+    position: absolute;
+    width: calc(100% - 400px);
+.container-linux
+    margin-top: 350px;
+.linux 
+    width: 400px;
+*/
