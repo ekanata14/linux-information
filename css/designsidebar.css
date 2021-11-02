@@ -193,6 +193,7 @@ body{
 }
 
 .pengertian p{
+    font-family: 'Poppins', sans-serif;
     position: absolute;
     height: 100%;
     width: calc(100% - 800px);
